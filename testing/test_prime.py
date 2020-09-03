@@ -11,6 +11,9 @@ class Tests(unittest.TestCase):
     def test1(self):
         # Check that 25 is not prime
         self.assertFalse(is_prime(25))
+    def test1(self):
+        # Check that 26 is not prime
+        self.assertFalse(is_prime(26))
     
 if __name__ == "__main__":
     unittest.main()
